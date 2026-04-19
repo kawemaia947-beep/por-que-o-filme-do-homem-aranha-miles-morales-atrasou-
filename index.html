@@ -9,29 +9,10 @@
         <script data-goatcounter="https://kawe.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 
-<button onclick="like()" id="btn">👍 Like</button>
-<p id="likes">0</p>
-
-<script>
-let likes = localStorage.getItem("likes_total") || 0;
-let jaCurtiu = localStorage.getItem("curtiu");
-
-document.getElementById("likes").innerText = likes;
-
-if(jaCurtiu){
-  document.getElementById("btn").disabled = true;
-}
-
-function like(){
-  if(!jaCurtiu){
-    likes++;
-    localStorage.setItem("likes_total", likes);
-    localStorage.setItem("curtiu", true);
-    document.getElementById("likes").innerText = likes;
-    document.getElementById("btn").disabled = true;
-  }
-}
-</script>
+<!-- LikeBtn.com BEGIN -->
+<span class="likebtn-wrapper" data-theme="black" data-lang="pt_BR" data-identifier="item_1"></span>
+<script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
+<!-- LikeBtn.com END -->
 
                <h2>Homem aranha atrás do aranha verso foi lançado em 2023 e a continuação deveria ser lançado em março de 2024 mas adiaram por tempo indeterminado por que?  
 1.Em 2023 houve uma greve de roteiristas que dificultou a produção desse filme
